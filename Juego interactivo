@@ -1,0 +1,28 @@
+import random
+import time
+
+def jugar():
+    time.sleep(2)
+    print("=========================================")
+    print(" ¡BIENVENIDO ! ")
+    print("=========================================")
+
+    time.sleep(5)
+    print(" Estás en el medio de la noche caminando hacía tu casa")
+
+    time.sleep(5)
+    print("Estas un poco cansado, fue un dia largo... ")
+
+    time.sleep(3)
+    print("Ves acercandose a alguien. El rostro te suena familiar pero no logras recordar de donde")
+    
+    time.sleep(1)
+    print("¿Que decidis?") 
+
+    time.sleep(1)
+    print("A) Te detenes y lo saludas")
+    print("B) Pensas Creo que no me vío tratando de esquivarlo")
+    print("C) Cambias de dirección")
+# Ejecutar el juego
+if __name__ == "__main__":
+    jugar()
