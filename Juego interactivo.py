@@ -8,10 +8,14 @@ def verfic_comando(comando):
 
 
 def jugar():
+    time.sleep(1)
+    print("...cuantas cosas han pasado en el último año...")
     time.sleep(2)
-    print("=========================================")
-    print(" ¡BIENVENIDO ! ")
-    print("=========================================")
+    print("... la mente de las personas no fué la misma desde que el proyecto oficialmente inicio... ")
+    time.sleep(2)
+    print("Es curioso, el humano se creé libre, pero sus acciones ya están dictadas")
+    time.sleep(2)
+    print("... es el precio por matar a Dios...")
 
     time.sleep(5)
     print(" Estás en el medio de la noche caminando hacía tu casa")
