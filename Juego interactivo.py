@@ -1,19 +1,33 @@
 import random
 import time
 
+#Lo de acá es para que el jugador no pueda poner cualquier cosa y el juego se rompa.
+
 def verfic_comando(comando):
         while comando not in ["a", "b", "c"]:
-          print("Opción incorrecta. Vuelve a intentarlo")
+          print("Opción incorrecta. Volvé a intentarlo") #Que diga 'volve' y no 'vuelve' es ejemplo de lo dicho abajo.
           comando = input("> ").strip().lower()
 
 
 def jugar():
-    time.sleep(1)
+    
+
+#Primeros textos del juego empiezan aca.
+
+#Me parece importante destacar las voces narrativas y las expresiones usadas, 
+#considerando que la trama se ubica en Formosa.
+
+#Tanto el sujeto narrativo de la historia, como el texto que es mostrado al usuario, deben mantener coherencia.
+#(ver ejemplo comentario linea '8')
+
+    time.sleep(3) #Todo este texto siguiente queda por pruebas, pero es a revisar.
     print("...cuantas cosas han pasado en el último año...")
     time.sleep(2)
     print("... la mente de las personas no fué la misma desde que el proyecto oficialmente inicio... ")
+        #Averiguar como espaciar texto. Calibrar textos y tiempo de lectura.
     time.sleep(2)
     print("Es curioso, el humano se creé libre, pero sus acciones ya están dictadas")
+
     time.sleep(2)
     print("... es el precio por matar a Dios...")
 
@@ -53,7 +67,7 @@ def jugar():
              time.sleep(2)
              print("Doblas a la izquierda")
              
-
+#Ahora deberia desarrollarse las continuaciones de cada una de las decisiones.
   
 # Ejecutar el juego
 if __name__ == "__main__":
