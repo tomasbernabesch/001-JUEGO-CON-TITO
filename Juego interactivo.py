@@ -69,6 +69,6 @@ def jugar():
              
 #Ahora deberia desarrollarse las continuaciones de cada una de las decisiones.
   
-# Ejecutar el juego
+
 if __name__ == "__main__":
     jugar()
