@@ -1,0 +1,58 @@
+{
+    "intro": {
+        "texto": [
+            "...cuantas cosas han pasado en el último año...",
+            "... la mente de las personas no fue la misma desde que el proyecto oficialmente inició...",
+            "Es curioso, el humano se cree libre, pero sus acciones ya están dictadas.",
+            "... es el precio por matar a Dios...",
+            "Estás en el medio de la noche caminando hacia tu casa.",
+            "Estás un poco cansado, fue un día largo...",
+            "Ves acercándose a alguien. El rostro te suena familiar pero no lográs recordar de dónde.",
+            "¿Qué decidís?"
+        ],
+
+        "opciones": [
+            {
+                "texto": "Te detenés y lo saludás.",
+                "destino": "saludo"
+            },
+            {
+                "texto": "Pensás 'Creo que no me vio' e intentás esquivarlo.",
+                "destino": "esquivar"
+            },
+            {
+                "texto": "Cambiás de dirección.",
+                "destino": "cambiar_direccion"
+            }
+        ]
+    }
+
+    "saludo": {
+        "texto": [
+            "...cuantas cosas han pasado en el último año...",
+            "... la mente de las personas no fue la misma desde que el proyecto oficialmente inició...",
+            "Es curioso, el humano se cree libre, pero sus acciones ya están dictadas.",
+            "... es el precio por matar a Dios...",
+            "Estás en el medio de la noche caminando hacia tu casa.",
+            "Estás un poco cansado, fue un día largo...",
+            "Ves acercándose a alguien. El rostro te suena familiar pero no lográs recordar de dónde.",
+            "¿Qué decidís?"
+        ],
+
+        "opciones": [
+            {
+                "texto": "Te detenés y lo saludás.",
+                "destino": "saludo"
+            },
+            {
+                "texto": "Pensás 'Creo que no me vio' e intentás esquivarlo.",
+                "destino": "esquivar"
+            },
+            {
+                "texto": "Cambiás de dirección.",
+                "destino": "cambiar_direccion"
+            }
+        ]
+    }
+
+}
